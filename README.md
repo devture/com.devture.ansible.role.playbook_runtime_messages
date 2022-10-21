@@ -25,7 +25,7 @@ Example tasks in `some_role` or `another_role`:
         devture_playbook_runtime_messages_list | default([])
         +
         [
-          "NOTE: This is a warning message which will be printed at the end of playbook execution"
+          "NOTE: This is a warning message to be printed at the end of playbook execution"
         ]
       }}
 ```
